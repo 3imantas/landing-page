@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header p, a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+}
+
+.header p{
+    font-weight: 600;
+}
+
+.header, .main{
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #1F2937;
+}
+
+.main{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+
+.main-img{
+    width: 350px;
+    height: 150px;
+}
+
+.main-text p{
+    color: white;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.main-text .hero{
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 40px;
+    margin: 0;
+}
