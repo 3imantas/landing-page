@@ -2,13 +2,12 @@ body{
     padding: 0;
     margin: 0;
     border: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    padding-right: 100px;
-    padding-left: 100px;
 }
 
 .header-links{
@@ -18,7 +17,6 @@ body{
 }
 
 .header p, a{
-    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     color: white;
 }
@@ -56,4 +54,61 @@ body{
     font-weight: bolder;
     line-height: 40px;
     margin: 0;
+}
+
+.middle-section{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 36px;
+    padding-bottom: 70px;
+    margin: 0;
+    background-color: #F9FAF8;
+}
+
+.middle-section img{
+    width: 120px;
+    height: 80px;
+}
+
+.mid-header{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 36px;
+    font-weight: bolder;
+    font-size: 36px;
+    margin: 0;
+}
+
+.pics{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pics p{
+    text-align: center;
+}
+
+.quote{
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 75px;
+    padding-top: 75px;
+    margin: 0;
+    background-color: #E5E7eb;
+}
+
+.author{
+    display: flex;
+    justify-content: right;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-text, .author, .mid-header, .pics p{
+    color: #1F2937;
 }
