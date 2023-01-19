@@ -17,7 +17,7 @@ body{
 }
 
 .header p, a{
-    font-size: 16px;
+    font-size: 20px;
     color: white;
 }
 
@@ -26,21 +26,28 @@ body{
 }
 
 .header, .main{
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 300px;
+    padding-left: 300px;
     background-color: #1F2937;
 }
 
 .main{
     display: flex;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 50px;
     justify-content: space-between;
+    gap: 10px;
+}
+
+.main-text{
+    flex: 0 1 350px;
 }
 
 .main-img{
-    width: 350px;
-    height: 150px;
+    max-width: 400px;
+    min-width: 300px;
+    width: 100%;
+    height: auto;
 }
 
 .main-text p{
@@ -57,8 +64,8 @@ body{
 }
 
 .middle-section{
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 400px;
+    padding-right: 400px;
     padding-top: 36px;
     padding-bottom: 70px;
     margin: 0;
@@ -66,14 +73,16 @@ body{
 }
 
 .middle-section img{
-    width: 120px;
-    height: 80px;
+    max-width: 200px;
+    min-width: 120px;
+    width: 100%;
+    height: auto;
 }
 
-.mid-header{
+.middle-section .mid-header{
     display: flex;
     justify-content: center;
-    padding-bottom: 36px;
+    padding-bottom: 48px;
     font-weight: bolder;
     font-size: 36px;
     margin: 0;
@@ -82,6 +91,8 @@ body{
 .pics{
     display: flex;
     justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .pics p{
@@ -89,8 +100,8 @@ body{
 }
 
 .quote{
-    padding-right: 150px;
-    padding-left: 150px;
+    padding-right: 400px;
+    padding-left: 400px;
     padding-bottom: 75px;
     padding-top: 75px;
     margin: 0;
@@ -111,4 +122,63 @@ body{
 
 .quote-text, .author, .mid-header, .pics p{
     color: #1F2937;
+}
+
+.action-section{
+    display: flex;
+    background-color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.action-container{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 10px;
+}
+
+.action-header, .action-text{
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.action-header{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.action-button{
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
